@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+body{
+  background-color: rgba(red, green, blue, alpha);
+  margin: 40px;
+  font-size:20px;
+}
+h1{
+  font-size: 50px;
+  color: white;
+  padding: 33px 10px 10px 30px;
+}
+#nom{
+  background-color: black;
+  height: 180px;
+  width: 930px;
+}
+#taigna{
+  background-color: rgba(200,170,40,0.6);
+  width: 100%;
+  margin: 15px;
+  
+} 
+#emit{
+  font-size: 30px;
+}
+h2{
+  color: darkred;
+ border-bottom: 2px solid blue;
+  padding: 5px 40% 5px 40%;
+}
+#techn{
+  color: blue;
+  padding: 0px 20px 0px 20px;
+} 
+#zozo{
+  padding: 10px 30px 10px 20px;
+}
+#etab{
+  font-size:40px;
+}
+#gaga{
+  padding:5px 10px 5px 10px;
+}
+img{
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  padding: 10%;
+  display: flex;
+}
+#hhhh{
+  padding: 5px 20% 5px 20%;
+}
+#contact{
+  background-color: rgba(200, 170, 40, 0.6);
+  width: 100%;
+  margin: 15px;
+}
+#concour{
+  padding: 5px 20px 5px 40px;
+}
+#Object{
+  background-color: rgba(200, 170, 40, 0.6);
+  width: 100%;
+  margin: 15px;
+}
+#love{
+  padding: 5px 20px 5px 40px;
+}
+#formu{
+  background-color: aqua;
+  margin: 40px;
+}
+#cava{
+  padding: 5px 20px 5px 60px;
+}
+input{
+  width: 500px;
+  height: 90px;
+}
+#gg{
+    color: blue;
+    font-size: 25px;
+    margin: 30%;
+}
+  </style>
+</head>
+<body>
+  <img id="sary" src="Mnanampy.jpg" alt="Mnanampy.jpg">
+ <div id="nom"><h1 id="ddd"></h1></div>
+  <script>
+    var ccc="RAZAFIMAHAFALY Manampisoa"
+    let x=0;
+    function babakoto(){
+      if(x<ccc.length){
+        document.getElementById("ddd").innerHTML+=ccc[x];
+        x++;
+        setTimeout(babakoto,65);
+      }
+    }
+    babakoto();
+    
+    
+    let papalexe=0;
+    setInterval(()=>{
+      document.getElementById("ddd").style.transform=`rotateY(${papalexe}deg)`;
+      papalexe+=2;
+    },80);
+    setInterval(()=>{
+      document.getElementById("sary").style.transform=`rotateY(${papalexe}deg)`;
+      papalexe-=3;
+    },80);
+    
+    setInterval(() => {
+      document.getElementById("dd").style.transform = `rotateX(${papalexe}deg)`;
+      papalexe += 2;
+    }, 80);
+  </script>
+  <div id="zozo">
+<pre><p>
+  <strong id="etab">   
+  Etudiant de L'ÉCOLE DE MANAGEMENT ET 
+      D'INNOVATION TECHNOLOGIQUE
+        Mention : INFORMATIQUE
+  Parcoure: DEVELOPPEUR D'APPLICATION 
+          INTERNET INTRANET
+       UNIVERSITÉ DE FIANARANTSOA</strong>
+</p></pre>
+
+</div>
+<h2>CONTACT</h2>
+<div id="kotakta">
+  <p id="cont">
+    <Table border="1" cellpadding="10" whidth="100">
+      <tr>mes contacts</tr>
+      <tr>
+        <th>WHATSAPP</th>
+        <th>FACEBOOK</th>
+        <th>email</th>
+        <th>Numero phone</th>
+        <th>CIN</th>
+      </tr>
+      <tr>
+        <th>0387295743</th>
+        <th>RAZAFIMAHAFALY Manampisoa</th>
+        <th>razmanampy07<br>@gmail.com</th>
+        <th>0332497633<br>0372154751</th>
+        <th>202012027708</th>
+      </tr>
+    </Table>
+  </p>
+</div>
+<h2>PROFIL</h2>
+
+ <div id="taigna">
+
+   <p id="gaga">
+     <b>Manampisoa RAZAFIMAHAFALY</b>
+     <br>Né le <b>12 octobre 2007</b> à Ambatofinandrahana.
+     <br>Fils de RASOARIMANANA Volloloniaina Olga et du feu RAZAFIMAHAFALY Samson . 
+     <br>J'ai un frère, il s'appelle RANDRIAMAMPIONONA Heriniaina Lovasoa. 
+     <br>Nous somme demeurant à Ambatofinandrahana.
+     Je suis un étudiant motivé en <strong >informatique</strong>.
+   </p>
+ </div>
+<h2 id="hhhh">FORMATION ET DIPLOME</h2>
+<div id="contact">
+  <p id="concour">
+  <b>-Le debut de l'année 2026 jusqu'aujourd'hui :</b>
+  Je continue mon étude dans <strong>L'ÉCOLE DE MANAGEMENT ET D'INNOVATION TECHNOLOGIQUE</strong>
+  <br><b>-L'année Scolaire 2024-2025 : </b>
+  Je m'obtient la diplome BACCALAURÉA serie <strong>SCIENTIFIQUE</strong> Dans Lycée Ambatofinandrahana.
+  <br><b>-Le 26 septembre 2026 : </b>
+  Je fais le concours d'entré en L1 informatique dans l'école de Management et d'innovation technologies. 
+  <br><b>-Le 18-19 Septembre 2026 :</b>
+  Je fait le concours d'entré en L1 informatique dans l'ecole National D'informatique(ENI) 
+</p>
+</div>
+<h2>OBJECTIF</h2>
+<div id="Object">
+  <p id="love">
+    Je souhaite de devenir en ingénieur D'informatique,
+  </p>
+</div>
+<h2 id="hhhh"> COMPÉTENCES EN INFORMATIQUE </h2>
+<div id="matique">
+  <p>
+    <Table border="1" cellpadding="10" whidth="100">
+    <tr>mes Compétences en informatique</tr>
+    <tr>
+      <th>Microsoft excel</th>
+      <th>Microsoft word</th>
+      <th>Microsoft accès</th>
+      <th>PowerPoint</th>
+      <tr>
+        <th>moyenne</th>
+        <th>moyenne</th>
+        <th>moyenne</th>
+        <th>moyenne</th>
+      </tr>
+<br>
+<Table id="123" border="1" cellpadding="10" whidth="1000">
+      <tr>languages</tr>
+      <tr>
+        <th>Hyper Text Markup Language<br> (tml) </th>
+        <th>cascading style sheets</th>
+        <th>javascript</th>
+        <th>Python et algorithme</th>
+        </tr>
+        <tr>
+          <th>bien</th>
+          <th>assez bien</th>
+          <th>Passable</th>
+          <th>faible</th>
+        </tr>
+</Table>
+  </p>
+  <h2></h2>
+</div>
+<div id="nom"><h1 id="dd">ENTRER VOTRE COMMENTAIRE DANS LE FORMULAIRE  CI-DESSOUS</h1></div>
+<div id="formu">
+<br><form id="cava" method="post" action="https://formspree.io/f/xpqnknbz">
+  <label for="vosnom">Entrez   votre   nom :</label>
+<input type="text" name="nom" id="vosnom" autocomplete="on" placeholder="ex:RAZAFIMAHAFALY" required>
+<label for="pren">Entrez votre prénom</label>
+<input type="text" name="prenom" id="pren" autocomplete="on" placeholder="ex:Manampisoa" required>
+<label for="coms">votre commentaires</label>
+<input type="text" name="coms" id="coms" autocomplete="on" placeholder="votre commentaire et mes fautes d'orthographes" required>
+<pre><bottom type="submit" id="gg">ENVOYER👍</bottom></pre>
+</form>
+</div>
+
+</body>
+</html>
